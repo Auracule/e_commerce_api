@@ -1,0 +1,22 @@
+https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
+https://docs.celeryq.dev/en/stable/getting-started/introduction.html
+https://redis.io/docs/manual/
+https://memcached.org/
+https://socket.io/
+
+
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2OTk4MDUwMiwianRpIjoiMDg4MGY5NWU0OTlmNDNiODhhYjA0MTNlOTI2MTg0ODYiLCJ1c2VyX2lkIjozfQ._YdvTFfsQaPWYeDKtlIkbilt0J8uLBUNYtML_aLJt5o",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY5ODk0NzAyLCJqdGkiOiJmYjM1ZTI5MmM4Mjg0N2M2ODJlZmRlOTE3NTg0MTExYSIsInVzZXJfaWQiOjN9.81AAvqQk4WSf55K0IfdZutWCL12oJeX7hKbRRIsMI1w"
+}
+
+=> Test angle:
+        - Anywhere there's is a User input
+        - After the happy path, safeguard the unhappy path (is taken care of by validation).
+
+=> Cart_ID:
+        - You don't want to process an invalid Cart.
+        - You don't want to also process an empty cart.
+
+
